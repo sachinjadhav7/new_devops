@@ -6,6 +6,7 @@ pipeline {
 		stage ('branch') {
 			steps {
 				echo 'this dev branch'
+				sh 'ls'
 				}
 			}
 			}
