@@ -5,7 +5,7 @@ pipeline {
 	stages {
 		stage ('branch') {
 			steps {
-				echo 'this deb branch'
+				echo 'this feauter branch'
 				}
 			}
 			}
